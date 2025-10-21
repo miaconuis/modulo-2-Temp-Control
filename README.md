@@ -44,5 +44,28 @@ El sistema permite medir la temperatura ambiente, aplicar potencia proporcional 
 
 ---
 
-## 🔌 Diagrama de Conexión
+
+## 🧠 Principio de Funcionamiento
+
+1. El **ESP32** mide la temperatura actual mediante el **DHT11**.  
+2. Calcula el **error térmico** (temperatura deseada – medida).  
+3. Genera una señal **PWM proporcional** (o control PI/PID) aplicada al **2N2222A**, que regula la potencia sobre la resistencia calefactora.  
+4. El sistema térmico responde lentamente (planta de primer orden).  
+5. Simulink o un monitor serial permiten visualizar la respuesta temporal.
+
+---
+
+## 🧪 Configuración del Software
+
+### 🔸 Requisitos
+- [Arduino IDE](https://www.arduino.cc/en/software) o PlatformIO
+- Librería `DHT.h` (Adafruit)
+- Librería `Adafruit Unified Sensor`
+- ESP32 core para Arduino (instalable desde el gestor de placas)
+
+### 🔸 Instalación
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/miacon-temp-control.git
+   cd miacon-temp-control
 
