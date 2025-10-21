@@ -1,0 +1,1 @@
+y = double(Temp_Data);   % donde Temp_Data es tu vector 14x1 single
