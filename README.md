@@ -1,10 +1,9 @@
 # 🌡️ Control de Temperatura con ESP32 — Módulo MIACON
 
 ### Proyecto: Módulo de Control de Temperatura de Bajo Costo para Aprendizaje Autónomo  
-**Autor:** [Tu nombre o grupo de trabajo]  
-**Institución:** [Nombre de la universidad o programa]  
-**Versión:** 1.0  
-**Licencia:** MIT  
+**Autor:** MIACON 
+**Institución:** Universidad Industrial de Santander
+**Versión:** 1.0 
 **Fecha:** Octubre 2025  
 
 ---
@@ -62,10 +61,3 @@ El sistema permite medir la temperatura ambiente, aplicar potencia proporcional 
 - Librería `DHT.h` (Adafruit)
 - Librería `Adafruit Unified Sensor`
 - ESP32 core para Arduino (instalable desde el gestor de placas)
-
-### 🔸 Instalación
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/miacon-temp-control.git
-   cd miacon-temp-control
-
